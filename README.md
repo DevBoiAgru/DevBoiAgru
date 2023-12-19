@@ -1,4 +1,4 @@
-<h1 align="center">Hello there! I'm DevBoiagru</h1>
+<h1 align="center">Hello there! I'm DevBoiAgru</h1>
 <h3 align="center">A tinkerer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=devboiagru&label=Profile%20views&color=0e75b6&style=flat" alt="devboiagru" /> </p>
