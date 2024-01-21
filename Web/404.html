@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Little website by DevBoiAgru, for DevBoiAgru">
+        <meta name="author" content="DevBoiAgru">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="WebBoiAgru">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="WebBoiAgru">
+        <meta property="og:description" content="Stupid website by a stupid dude. Because why not?">
+        <meta property="og:url" content="https://devboiagru.pythonanywhere.com/">
+        <meta property="og:image" content="https://raw.githubusercontent.com/DevBoiAgru/DevBoiAgru/main/assets/images/LogoTransparent.png">
+        <meta name="theme-color" content="#08EA8E">
+        <title>WebBoiAgru</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/DevBoiAgru/DevBoiAgru/main/assets/images/LogoTransparent.png">
+    </head>
+<body>
+    <header>
+        <div class="navbar" id ="navbar">
+            <img id="navbar-logo" src="https://raw.githubusercontent.com/DevBoiAgru/DevBoiAgru/main/assets/images/LogoTransparent.png" alt="Logo">
+            <a class="hamburger" href="javascript:void(0);" onclick="Hamburger()">☰</a>
+            <a class="wide" href= "/">HOME</a>
+            <a class="wide" href= "#about">ABOUT</a>
+            <a class="wide" href= "mailto:devboiagru@gmail.com">CONTACT</a>
+            <a class="wide" href= "https://www.youtube.com/@devboiagru" target = "_blank">YOUTUBE</a>
+            <a class="wide" href= "https://discord.gg/TCMwKpxRHt" target = "_blank">DISCORD</a>
+            <a class="wide" href= "https://github.com/DevBoiAgru/" target = "_blank">GITHUB</a>
+            <a class="wide" href= "https://devboiagru.itch.io/" target = "_blank">ITCH.IO</a>
+            <!-- <input type="text" name="search" id="" class="wide search" placeholder="Search"> -->
+        </div>
+    </header>
+    <div class="wrapper">
+        <style class = "fancycode" >
+            /*Style sheet*/
+
+            *{
+                box-sizing: border-box;
+                animation: fade 1s;
+                animation-timing-function:cubic-bezier(0.85, 0.05, 0.65, 0.70);
+            }
+            :root{
+                --primary-color: #08EA8E;
+                --secondary-color: #DADADA;
+                --body-color: #FFFFFF;
+                --highlight-text-color: #FFFFFF;
+                --selected: #00B76E;
+                --link-color: #67FFC2;
+                --decoration-text-color: #00000069;
+            }
+            a{
+                color: var(--link-color);
+                text-decoration: none;
+            }
+            body{
+                margin: 0%;
+                padding: 0%;
+                font-family: Poppins;
+                background-color: var(--secondary-color);
+            }
+            .centereddiv{
+                height: 100%;
+                width: 100%;
+                margin:auto
+            }
+            .contentheading{
+                text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;
+                font-size: 7vw;
+            }
+            .centeredtext{
+                text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            .fancycode{
+                display: block;
+                font-family: monospace;
+                color: var(--decoration-text-color);
+                white-space: break-spaces;
+                position: absolute;
+                font-weight: 100;
+                left: 0;
+                z-index: -1;
+                padding: 5em 2em;
+                -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0,0,0,0)));
+                mask-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0,0,0,0)));
+            }   
+            .footerlinks{
+                padding:0%;
+                display: flex;
+                align-items: center;
+            }
+            .footerlinks li{
+                list-style: none;
+            }
+            #footerlogo{
+                width: 100px;
+                height: 100px;
+                margin: auto;
+            }
+            .footerwrapper{
+                color: var(--highlight-text-color);
+                background-color: var(--primary-color);
+                border-radius: 0px;
+                margin: 0px;
+                display: grid;
+                padding: 0 4% ;
+            }
+            .footerwrapper a{
+                text-decoration: none;
+                color: var(--highlight-text-color);
+            }
+            .gameembed{
+                width: 80%;
+                height: 5%;
+                margin-bottom: 1%;
+                margin-top: 1%;
+            }
+            .mainbody{
+                background-color: var(--body-color);
+                width: 80%;
+                padding: 0 0 0 0;
+                margin: 0 0 10% 0;
+                display: flex;
+                align-items: center;
+                flex-flow: column;
+                overflow-x: hidden;
+            }
+            .navbar{
+                background-color: var(--primary-color);
+                font-size: 1.3rem;
+                border-radius: 0%;
+                position: relative;
+                margin: 0%;
+                display: flex;
+                padding: 0%;
+                flex-direction: row;
+                align-items: center;
+            }
+            .navbar a{
+                color: var(--highlight-text-color);
+                padding: 15px;
+                text-decoration: None;
+                display: flex;
+                align-items: center;
+                transition-property: background-color;
+                transition-duration: 0.2s;
+                transition-timing-function: ease-in-out;
+            }
+            .navbar a:hover{
+                background-color: var(--selected);
+            }
+            .navbar .hamburger {
+                display: none;
+                float: right;
+            }
+            #navbar-logo{
+                background-color: var(--primary-color);
+                height: 3.3rem;
+                width: 3.3rem;
+                float:left;
+                padding: 0.2rem;
+                margin-left: 1rem;
+            }
+            .slides{
+                width: 100%;
+                animation: slides-float;
+                animation-fill-mode: both;
+                animation-timing-function: cubic-bezier(0.31, 0.14, 0.54, 1.01);
+                animation-duration: 5s;
+                animation-direction: normal;
+                animation-delay: 0s;
+            }
+            .slideshow{
+                width: 100%;
+                margin: auto;
+                position: relative;
+                background-color: #000000;
+            }
+            #slideshowheading{
+                color: var(--highlight-text-color);
+                z-index: 10;
+                position: absolute;
+                top: 0%;
+                display: block;
+                width: 100%;
+                background-color: #000000AC;
+            }
+            .spacer{
+                margin: 5%;
+            }
+            .wrapper{
+                display: flex;
+                align-items: center;
+                flex-flow: column;
+                position: relative;
+                overflow-y: hidden;
+            }
+
+            /* Animations */
+            
+            @keyframes fade {
+                0% {
+                    -webkit-transform: rotateX(-0deg) translateX(-10px) skewX(0deg);
+                    transform: rotateX(0deg) translateX(-10px) skewX(0deg);
+                    opacity: 0;
+                }
+                100% {
+                    -webkit-transform: rotateX(0deg) translateX(0px) skewX(0deg);
+                    transform: rotateX(0deg) translateX(0px) skewX(0deg);
+                    opacity: 1;
+                }
+            }
+            @-webkit-keyframes slides-float {
+                0% {
+                    -webkit-transform: rotateX(-10deg) translateX(100px) skewX(2deg);
+                    transform: rotateX(-10deg) translateX(100px) skewX(2deg);
+                    opacity: 0;
+                }
+                20% {
+                    -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+                    transform: rotateX(0deg) translateX(0) skewX(0deg);
+                    opacity: 1;
+                }
+                70% {
+                    -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+                    transform: rotateX(0deg) translateX(0) skewX(0deg);
+                    opacity: 1;
+                }
+                100% {
+                    -webkit-transform: rotateX(-10deg) translateX(-100px) skewX(-2deg);
+                    transform: rotateX(-10deg) translateX(-100px) skewX(-2deg);
+                    opacity: 0;
+                }
+            }
+            @keyframes slides-float {
+                0% {
+                    -webkit-transform: rotateX(-10deg) translateX(100px) skewX(2deg);
+                            transform: rotateX(-10deg) translateX(100px) skewX(2deg);
+                    opacity: 0;
+                }
+                20% {
+                    -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+                            transform: rotateX(0deg) translateX(0) skewX(0deg);
+                    opacity: 1;
+                }
+                70% {
+                    -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+                            transform: rotateX(0deg) translateX(0) skewX(0deg);
+                    opacity: 1;
+                }
+                100% {
+                    -webkit-transform: rotateX(-10deg) translateX(-100px) skewX(-2deg);
+                            transform: rotateX(-10deg) translateX(-100px) skewX(-2deg);
+                    opacity: 0;
+                }
+            }
+
+            /*Media queries*/
+
+            @media screen and (max-width: 650px) { /* When screen width is less than 600px */
+                .navbar .wide:not(:first-child) { /* Make every non-hamburger menu button invisible */
+                    display: none;
+                }
+                .navbar .hamburger { /* Make the hamburger menu visible */
+                    margin-left: auto;
+                    margin-right: 0%;
+                    display: block;
+                }
+                .mainbody{
+                    width: 95%; /* Increase width of the body area for slim screens */
+                }
+                .navbar.responsive {
+                    flex-direction: column;
+                    align-items: normal;
+                }
+                .navbar.responsive .hamburger {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+                .navbar.responsive .wide {
+                    display: block;
+                    text-align: left;
+                }
+                .navbar.responsive #navbar-logo{
+                    height: 4rem;
+                    width: 4rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .navbar.navbar.responsive .wide{
+                    padding-left: 2rem;
+                }
+            }
+
+            /* Scrollbar CSS */
+            /* Firefox */
+            * {
+                scrollbar-width: auto;
+                scrollbar-color: #07c076 #2e2e2e;
+            }
+
+            /* Chrome, Edge, and Safari */
+            *::-webkit-scrollbar {
+                width: 15px;
+            }
+
+            *::-webkit-scrollbar-track {
+                background: #2e2e2e;
+            }
+
+            *::-webkit-scrollbar-thumb {
+                background-color: #07c076;
+                border-radius: 0px;
+                border: 0px solid #000000;
+            }
+
+            </style>
+            <script>
+                // Function for navbar responsiveness
+                function Hamburger() {
+                    var x = document.getElementById("navbar");
+                    if (x.className === "navbar") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "navbar";
+                    }
+                }
+            </script>
+        <!-- CONTENT STARTS HERE -->
+        <h1 class="contentheading" id="about" style="padding: 0.3em;">404 NOT FOUND</h1>
+        <div class="mainbody">
+            <div class="centereddiv">
+                <h1 class="centeredtext" style="font-size: 5vw;">This page is not available. But I am :p</h1>
+                <p class="centeredtext" style="font-size: 2vw;">Hit me up on <a href = "https://discord.com/users/700572813009879170">discord</a></p>
+                <p class="centeredtext" style="font-size: 1.5vw;">Or return to <a href="https://devboiagru.pythonanywhere.com/">home</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerwrapper">
+            <div class="footerlinks">
+                <ul>
+                    <li><p style="font-size: 1.5em;">Socials</p></li>
+                    <li><a href="https://www.youtube.com/@devboiagru" target="_blank">YouTube</a></li>
+                    <li><a href= "https://discord.gg/TCMwKpxRHt" target = "_blank">Discord server</a></li>
+                    <li><a href= "https://devboiagru.itch.io/" target = "_blank">Itch.io page</a></li>
+                    <li><a href= "https://www.instagram.com/devboiagru" target = "_blank">Instagram</a></li>
+                </ul>
+            </div>
+            <img id="footerlogo" src="https://raw.githubusercontent.com/DevBoiAgru/DevBoiAgru/main/assets/images/LogoTransparent.png" alt="Logo">
+            <div class="centereddiv">
+                <p class="centeredtext">Website by DevBoiAgru</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
