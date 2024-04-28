@@ -31,9 +31,6 @@
 ### ✍️ Quote of the day
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true)
 
-### 😂 Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 300px;"/>
-
 ### 🔥 Github stats
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=devboiagru&show_icons=true&locale=en&layout=compact" alt="devboiagru" /></p>
 
