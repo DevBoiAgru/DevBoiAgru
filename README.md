@@ -9,7 +9,7 @@
 
 - 💪 I have made **a few games, REST APIs using flask, some webpages, and much more!**
 
-- 👨‍💻 All of my projects are available at [https://devboiagru.pythonanywhere.com/](https://devboiagru.pythonanywhere.com/)
+- 👨‍💻 All of my projects are available here and at [https://devboiagru.vercel.app/](https://devboiagru.vercel.app/)
 
 - 💬 Ask me about **Python, Unreal Engine and Blender!**
 
@@ -17,7 +17,6 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://instagram.com/devboiagru" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="devboiagru" height="30" width="40" /></a>
 <a href="https://www.youtube.com/@devboiagru" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="devboiagru" height="30" width="40" /></a>
 <a href="https://discord.gg/TCMwKpxRHt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="TCMwKpxRHt" height="30" width="40" /></a>
 </p>
