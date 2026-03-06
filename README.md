@@ -7,6 +7,10 @@
  <img src="https://img.shields.io/github/stars/devboiagru?label=Stars" alt="stars">
 </p>
 
+<h3 align="center">
+<a href="https://devBoiAgru.vercel.app" target="blank">https://devboiagru.vercel.app</a>
+</h3>
+
 - 🔭 I'm currently working on **a project to make racing games even more fun for more people!**
 
 - 🌱 I'm currently learning **Kotlin, NextJS, Go**
@@ -17,9 +21,9 @@
 
 - ⚡ Fun fact **I try to do a little bit of _everything_**
 
-- 👨‍💻 All of my projects are available here and at **[my website!](https://devboiagru.vercel.app/projects)**
+- 👨‍💻 All of my projects are available here and on **[my website!](https://devboiagru.vercel.app/projects)**
 
-- 📝 Check out my blog posts here: **[https://devboiagru.vercel.app/blogs](https://devboiagru.vercel.app/blogs)**
+- 📝 Check out my blog posts **[here.](https://devboiagru.vercel.app/blogs)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
