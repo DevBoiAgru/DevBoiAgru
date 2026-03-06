@@ -4,12 +4,12 @@
 <p align="center"> 
  <img alt="followers" src="https://img.shields.io/github/followers/devboiagru?label=Followers&style=social">
  <img src="https://img.shields.io/github/stars/devboiagru?label=Stars" alt="stars">
- <img src="https://komarev.com/ghpvc/?username=DevBoiAgru&label=Profile views&color=636558&style=flat-square" alt="DevBoiAgru" /> 
+ <img src="https://komarev.com/ghpvc/?username=DevBoiAgru&label=Profile views&color=gray&style=flat-square" alt="DevBoiAgru" /> 
 </p>
 
-<h3 align="center">
+<h2 align="center">
 <a href="https://devBoiAgru.vercel.app" target="blank">https://devboiagru.vercel.app</a>
-</h3>
+</h2>
 
 - 🔭 I'm currently working on **a project to make racing games even more fun for more people!**
 
