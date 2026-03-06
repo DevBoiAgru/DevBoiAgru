@@ -1,7 +1,11 @@
 <p align="center">
 <img src="assets/images/GitHub/ProfileBanner.jpg" alt="Image Banner saying Hello, World! I am DevBoiAgru"/>
 </p>
-<p align="right"> <img src="https://komarev.com/ghpvc/?username=DevBoiAgru&label=Profile views&color=0e75b6&style=flat" alt="DevBoiAgru" /> </p>
+<p align="center"> 
+ <img src="https://komarev.com/ghpvc/?username=DevBoiAgru&label=Profile views&color=636558&style=flat" alt="DevBoiAgru" /> 
+ <img alt="followers" src="https://img.shields.io/github/followers/devboiagru?label=Followers&style=social">
+ <img src="https://img.shields.io/github/stars/devboiagru?label=Stars" alt="stars">
+</p>
 
 - 🔭 I'm currently working on **a project to make racing games even more fun for more people!**
 
