@@ -2,9 +2,9 @@
 <img src="assets/images/GitHub/ProfileBanner.jpg" alt="Image Banner saying Hello, World! I am DevBoiAgru"/>
 </p>
 <p align="center"> 
- <img src="https://komarev.com/ghpvc/?username=DevBoiAgru&label=Profile views&color=636558&style=flat" alt="DevBoiAgru" /> 
  <img alt="followers" src="https://img.shields.io/github/followers/devboiagru?label=Followers&style=social">
  <img src="https://img.shields.io/github/stars/devboiagru?label=Stars" alt="stars">
+ <img src="https://komarev.com/ghpvc/?username=DevBoiAgru&label=Profile views&color=636558&style=flat-square" alt="DevBoiAgru" /> 
 </p>
 
 <h3 align="center">
