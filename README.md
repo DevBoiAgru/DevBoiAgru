@@ -1,11 +1,16 @@
-<p align="center">
+<div align="center">
 <img src="assets/images/GitHub/ProfileBanner.jpg" alt="Image Banner saying Hello, World! I am DevBoiAgru"/>
-</p>
-<p align="center"> 
- <img alt="followers" src="https://img.shields.io/github/followers/devboiagru?label=Followers&style=social">
- <img src="https://img.shields.io/github/stars/devboiagru?label=Stars" alt="stars">
- <img src="https://komarev.com/ghpvc/?username=DevBoiAgru&label=Profile views&color=gray&style=flat-square" alt="DevBoiAgru" /> 
-</p>
+</div>
+
+<br/>
+
+<div align="center">
+
+[![Followers](https://img.shields.io/github/followers/devboiagru?label=Followers&style=social)](https://github.com/devboiagru)
+[![Profile views](https://komarev.com/ghpvc/?username=DevBoiAgru&label=Profile%20Views&color=gray&style=flat-square")](https://github.com/devboiagru)
+[![Stars](https://img.shields.io/github/stars/devboiagru?label=Stars)](https://github.com/devboiagru)
+
+</div>
 
 <h2 align="center">
 <a href="https://devBoiAgru.vercel.app" target="blank">https://devboiagru.vercel.app</a>
