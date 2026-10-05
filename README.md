@@ -16,9 +16,9 @@
 <a href="https://devBoiAgru.vercel.app" target="blank">https://devboiagru.vercel.app</a>
 </h2>
 
-- 🔭 I'm currently working on **a project to make racing games even more fun for more people!**
+- 🔭 I'm currently working on **my own operating system!**
 
-- 🌱 I'm currently learning **Kotlin, NextJS, Go**
+- 🌱 I'm currently learning **x86 Assembly and drivers!**
 
 - 👯 I'm looking to collaborate on **interesting open source projects!**
 
